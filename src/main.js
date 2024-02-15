@@ -1,8 +1,7 @@
 //Bryon Anderson CMPM-120
 //endless runner - Nut Dash
-//for some reason none of my assets would load I'm not quite sure why the game was not
-//intially going top be made from the green boxes phaser inputs
-//Also had trouble implementing end game screen to stop game loop
+//hours spent on project: 15 hrs
+//
 
 // global game options
 let gameOptions = {

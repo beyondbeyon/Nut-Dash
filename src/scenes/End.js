@@ -28,7 +28,7 @@ class End extends Phaser.Scene{
         endconfig.backgroundColor = '#00FF00';
         endconfig.color = '#000';
 
-        this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 'Press (R) to Restart or ← for Menu', endconfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 'Press (R) to Restart or → for Menu', endconfig).setOrigin(0.5);
         // define keys
         keyR = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
         keyRIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
